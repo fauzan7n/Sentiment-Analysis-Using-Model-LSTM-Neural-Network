@@ -1,0 +1,19 @@
+paths:
+/Text_Neural_Network: 
+tags:
+  - name: Model Neural Network
+post:
+  description: Input Text To Swagger
+parameters:
+  - in: formData
+    name: text_ori
+    schema:
+      type: string
+    description: Input Text Tweet In Here 
+responses:
+    '200':
+      description: Successful response
+    '400':
+      description: Bad Request
+    '500':
+      description: Internal Server Error
